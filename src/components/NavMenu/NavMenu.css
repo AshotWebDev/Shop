@@ -1,0 +1,30 @@
+  .nav-menu{
+    display: flex;
+    list-style: none;
+    padding-inline-start: 0;
+    transition: all .5s;
+}
+
+.nav-menu li:first-child{
+    border-left: none;
+}
+
+.nav-menu li:last-child{
+    border-right: 1.5px solid black;
+}
+
+
+
+@media (max-width: 720px){
+    .nav-menu{
+        position: fixed;
+        right: 0;
+        top: 62px;
+        flex-direction: column;
+        width: 200px;
+        background-color: #D6FF38;
+        transform: translateX(120%);
+    }
+}
+
+

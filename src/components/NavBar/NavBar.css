@@ -1,0 +1,85 @@
+ .nav-bar{
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+}
+ 
+.nav-bar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-right: 20px;
+}
+
+.nav-bar .container h1{
+    font-size: 20px;
+    background-color: #D6FF38;
+    padding: 13px 40px;
+    border-right: 1px solid black;
+    
+}
+.cart-icon{
+    position: relative;
+
+}
+.cart-count{
+    position: absolute;
+    top: -10px;
+    right: -7px;
+    background-color: #D6FF38;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    padding: 3px;
+}
+.nav-bar .container div:hover {
+    color: #D6FF38;
+}
+
+.barc{
+    width: 40px;
+    height: 40px;
+    z-index: 999;
+    background-color:#D6FF38 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 1s;
+    display: none;
+}
+
+.barc > div {
+    background-color: #000;
+    width: 30px;
+    height: 2px;
+    transition: all 0.4s;
+  }
+
+   
+.barc > div.activeXmark:nth-child(1) {
+    display: none;
+  }
+   
+.barc > div.activeXmark:nth-child(2) {
+    transform: rotate(45deg) translateX(5px) translateY(5px);
+  }
+   
+  
+  
+.barc > div.activeXmark:nth-child(3) {
+    transform: rotate(-45deg) translateX(5px) translateY(-5px);
+  }  
+
+ @media screen and (max-width: 720px){
+    .barc{
+        display: flex;
+    }
+} 
+
+

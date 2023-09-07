@@ -1,0 +1,79 @@
+.unique-prod .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    max-width: 1140px;
+    margin: 30px auto;
+    margin-top: 0;
+}
+
+.unique-prod-item{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    column-gap: 20px;
+}
+.unique-prod-item .unique-prod-right{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: flex-start;
+}
+
+.unique-prod-item .unique-prod-right textarea{
+    width: 200px;
+    height: 200px;
+    resize: none;
+    font-size: 14px;
+    border: none;
+    outline: none;
+}
+
+.unique-prod-item .unique-prod-right h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    
+}
+
+.unique-prod-item .unique-prod-right span:nth-of-type(1){
+    color: gray;
+    font-size: 11px;
+}
+
+.unique-prod-item .unique-prod-right span:nth-of-type(2){
+    color: black;
+    font-size: 20px;
+}
+
+.unique-prod-item .unique-prod-right button{
+    font-size: 14px;
+    background-color:#D6FF38 ;
+    color: black;
+    border: none;
+}
+
+.unique-prod-item .unique-prod-right button:hover{
+    background-color: black;
+    color: #D6FF38;
+}
+
+
+
+
+.unique-prod-item .unique-prod-right .add-btn{
+    padding: 10px 15px;
+}
+
+.unique-prod-item img {
+    width: 300px;
+    height: 400px;
+}
+
+@media (max-width: 480px){
+    .unique-prod-item {
+        flex-direction: column !important;
+    }
+}
+

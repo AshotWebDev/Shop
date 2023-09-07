@@ -1,0 +1,20 @@
+.header{
+    background-color: #D6FF38;
+}
+
+.header .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 10px 0;
+    margin-top: 0;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header .container h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}

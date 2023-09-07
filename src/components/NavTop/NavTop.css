@@ -1,0 +1,15 @@
+.nav-top{
+    background-color: black;
+}
+
+.nav-top .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+
+.nav-top .container h1{
+    color: white;
+    font-size: 10px;
+}

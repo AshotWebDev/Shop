@@ -1,0 +1,18 @@
+.cart-page .container{
+    margin: 20px auto;
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
+
+.cart-page .container h3{
+    color: black;
+    background-color: #D6FF38;
+    padding: 5px 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.699);
+}
+

@@ -1,0 +1,18 @@
+.nav-menu a{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 18px 10px;
+    color: black;
+}
+
+.nav-menu a:hover{
+    background-color: black;
+    color: #D6FF38;
+}
+
+.nav-menu a.active-item{
+    background-color: black;
+    color: #D6FF38;
+}
+
+

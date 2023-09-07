@@ -1,0 +1,40 @@
+.admin-panel .container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+
+.admin-panel .container form input{
+    background-color: #D6FF38;
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 30px;
+    color: black;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.619);
+}
+
+.admin-panel .container form button{
+    background-color: black;
+    color: #D6FF38;
+    width: 150px;
+    height: 20px;
+    
+}
+
+.log-out{
+    background-color: #D6FF38;
+    color: black;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.544);
+}
+
+.log-out:hover{
+    background-color: black;
+    color: #D6FF38;
+}

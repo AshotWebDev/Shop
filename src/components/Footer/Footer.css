@@ -1,0 +1,104 @@
+.footer .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    border:  1px solid black;
+}
+
+.footer .container div:nth-of-type(1){
+    width: 30%;
+    height: 100%;
+}
+
+.footer .container div:nth-of-type(2){
+    width: 70%;
+    height: 100%;
+}
+
+.footer .container .footer-left {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.footer .container .footer-left .footrer-left-top{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+} 
+
+.footer .container .footer-left .footrer-left-bottom{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.footer .container .footer-left .footrer-left-bottom a{
+    color: black;
+}
+
+
+.footer .container .footer-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .container .footer-right div:nth-of-type(1){
+    width: 100%;
+    height: 80%;
+    background-color: white;
+}
+
+.footer .container .footer-right div:nth-of-type(2){
+    width: 100%;
+    height: 20%;
+    background-color: #D6FF38;
+    border-top: 1px solid black;
+}
+
+.footer .container .footer-right .footer-right-bottom h3{
+    text-align: center;
+    font-weight: 100;
+}
+
+.footer .container .footer-right .footer-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .container .footer-right .footer-menu .ul-title{
+    font-weight: bold;
+}
+
+.footer .container .footer-right .footer-menu li{
+    padding: 5px 0;
+}
+
+@media (max-width: 520px){
+    .footer .container{
+        flex-wrap: wrap;
+    }
+
+    .footer .container div:nth-of-type(1){
+        width: 100%;
+        height: 100%;
+    }
+    
+    .footer .container div:nth-of-type(2){
+        width: 100%;
+        height: 100%;
+    }
+}
